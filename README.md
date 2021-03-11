@@ -29,5 +29,5 @@ python main.py --display [n|y] --fps [n|y]
 ```
 
 **Flags:**
-    - `--display`: this switch is used to display video in the CLI (default = n)
-    - `--fps`: this switch is used to display the FPS when script is terminated (default = n)
+- `--display` switch is used to display video in the CLI (default = n)
+- `--fps` switch is used to display the FPS when script is terminated (default = n)
