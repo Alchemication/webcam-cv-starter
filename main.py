@@ -1,3 +1,10 @@
+"""
+Usage: python main.py --display [n|y] --fps [n|y]
+Flags:
+    --display: this switch is used to display video in the CLI (default = n)
+    --fps: this switch is used to display the FPS when script is terminated (default = n)
+"""
+
 from imutils.video import VideoStream
 from imutils.video import FPS
 from time import sleep
