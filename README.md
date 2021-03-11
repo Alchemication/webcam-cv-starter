@@ -13,9 +13,9 @@ Then, install additional libraries (in the `cv` virtual env.):
 pip install -r requirements.txt
 ```
 
-Next, patch imutils lib., which does not allow to change the resolution of a USB webcam. Update 2 files:
-- video/videostream.py
-- video/usbwebcam.py
+Next (I know, horrible!), patch imutils lib., which does not allow to change the resolution of a USB webcam. Update 2 files:
+- `video/videostream.py`
+- `video/usbwebcam.py`
 
 (Add support for res argument in the usbwebcam file, TODO: add detail changes above)
 
